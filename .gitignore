@@ -1,0 +1,33 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+.eggs/
+build/
+dist/
+.ipynb_checkpoints/
+.DS_Store
+
+# --- Model weights (obtain via README) ---
+*.pth
+*.pt
+*.ckpt
+groundingdino_swint_ogc.pth
+reg_v2_s42/*.pth
+
+# --- Data (obtain REC-8K via README) ---
+data/
+anno/*.json
+*.zip
+
+# --- Training / evaluation outputs ---
+reg_v2_s42/*.png
+regraph_results*/
+*_vis.png
+*.log
+
+# --- Figures / scratch ---
+fig3_candidates/
+teaser_figs/
+*.tmp
